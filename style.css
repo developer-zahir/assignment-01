@@ -1,0 +1,374 @@
+/* Header section */
+#header {
+  height: 100px;
+}
+#header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+#header .left .logo {
+  text-decoration: none;
+  transition: 0.4s;
+}
+#header .left .logo:hover {
+  opacity: 0.8;
+}
+#header .right .btn-primary {
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+#header .right .btn-primary:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+/* Banner section */
+#banner-section {
+  margin: 20px 0;
+}
+#banner-section .container {
+  background-color: var(--secondary);
+  padding: 60px;
+  border-radius: 24px;
+  height: 560px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+#banner-section .left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+#banner-section .left .btn-primary {
+  margin-top: 8px;
+}
+
+#banner-section .right {
+  width: 40%;
+}
+#banner-section .right figure {
+  text-align: right;
+}
+
+/* pillars-of-bangladesh-section */
+#pillars-of-bangladesh-section .pillars-items-container {
+  display: flex;
+  gap: 24px;
+}
+#pillars-of-bangladesh-section .pillar-item {
+  background-color: var(--white);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+#pillars-of-bangladesh-section .pillar-item figure {
+  margin-bottom: 5px;
+}
+
+/* vision-fo-future-section */
+#vision-fo-future-section {
+  padding-top: 0;
+}
+#vision-fo-future-section .vision-items-container {
+  display: flex;
+  gap: 24px;
+}
+#vision-fo-future-section .vision-item {
+  padding: 32px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+}
+#vision-fo-future-section .vision-item .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+}
+#vision-fo-future-section .vision-item figure {
+  margin-bottom: 5px;
+}
+#vision-fo-future-section .vision-item:nth-child(1) {
+  background-color: #d5e1f5;
+}
+#vision-fo-future-section .vision-item:nth-child(1) .btn-sm {
+  background-color: #5490f5;
+}
+#vision-fo-future-section .vision-item:nth-child(2) {
+  background-color: #c6e4d6;
+}
+#vision-fo-future-section .vision-item:nth-child(2) .btn-sm {
+  background-color: #09a15c;
+}
+#vision-fo-future-section .vision-item:nth-child(3) {
+  background-color: #f7ebcf;
+}
+#vision-fo-future-section .vision-item:nth-child(3) .btn-sm {
+  background-color: #ffc239;
+}
+
+
+
+/* testimonial-section  */
+#testimonial-section{
+    padding-top: 0;
+}
+#testimonial-section .container{
+    background: url("./images/quat.png") rgba(255, 255, 255, 0.5) 27px 25px no-repeat;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding:45px 25px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    gap: 18px;
+    background-blend-mode: overlay;
+}
+
+
+/* your-opinion-section */
+#your-opinion-section{
+    padding-top: 0;
+}
+
+#your-opinion-section .opinion-table-wrapper{
+    padding:32px;
+    border-radius: 16px;
+    background-color: var(--white);
+}
+#your-opinion-section table{
+    width: 100%;
+    border: 1px solid var(--border-color);
+    border-collapse: collapse;
+}
+#your-opinion-section .custom-table-head{
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+#your-opinion-section .custom-table-head .card-heading{
+   opacity: 1;
+}
+#your-opinion-section td{
+    padding:20px;
+    border: 1px solid var(--border-color);
+    text-align: left;
+}
+#your-opinion-section td select{
+    background: var(--secondary);
+    width: 100%;
+    padding:10px;
+    border: unset;
+    border-right: 10px solid transparent;
+    outline: 1px solid var(--black);
+    border-radius: 4px;
+    font-weight: 600;
+    opacity: .9;
+}
+
+#your-opinion-section td:last-child{
+    max-width:150px;
+}
+
+
+/* recent-news */
+#recent-news{
+    padding-top: 0;
+}
+#recent-news article{
+    padding: 45px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    border-radius: 24px;
+    margin-bottom: 25px;
+}
+#recent-news article:nth-child(even){
+    flex-direction: row-reverse;
+}
+#recent-news article .news-thumbnail{
+    width: 35%;
+}
+#recent-news .news-content{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: space-between;
+}
+#recent-news .news-content .top{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+#recent-news  article .btn-primary{
+   padding: 13px 25px;
+}
+
+
+
+/* donate-section */
+#donate-section {
+    padding-top: 0;
+}
+#donate-section .section-title-wrapper{
+    text-align: center;
+}
+#donate-section .section-title-wrapper p{
+    padding: 0 10%;
+}
+.donate-amount{
+    display: flex;
+    grid-area: 30px;
+}
+.donate-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.other-amount input{
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding:23px 20px 20px 20px;
+    font-size: 20px;
+    outline: none;
+    font-weight:400;
+    color: var(--black);
+    margin-top:24px;
+    border-radius: 16px;
+    transition: .4s;
+}
+.other-amount input::placeholder{
+    color: var(--black);
+    opacity: .3;
+}
+.other-amount input:focus{
+    border-color: var(--primary);
+}
+.submit-button input{
+    border: unset;
+    cursor: pointer;
+}
+
+/* amount select box design */
+.donate-container form .donate-amount{
+    display: flex;
+    gap:24px;
+   }
+.donate-amount label{
+    background-color: var(--white);
+    padding: 40px;
+    display: inline-block;
+    opacity: .8;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    transition: .4s;
+}
+
+.donate-amount label:hover, label:has(input:checked)  {
+    background-color: var(--secondary);
+    cursor: pointer;
+}
+
+.donate-amount input {
+    display: none;
+}
+
+
+
+/* news-letter  */
+#news-letter {
+    padding-top: 0;
+}
+#news-letter .container{
+    background-color: var(--secondary);
+    border-radius:24px ;
+    padding: 80px 100px;
+}
+#news-letter .section-title-wrapper{
+    text-align: center;
+}
+form.newsletter-form {
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
+.newsletter-form input{
+    padding: 18px 30px;
+    background-color: var(--white);
+    border: 1px solid transparent;
+    outline: unset;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black);
+    width: 100%;
+    transition:.4s
+}
+.newsletter-form input:focus{
+    border-color: var(--primary);
+}
+.newsletter-form input::placeholder{
+    opacity: .5;
+}
+.newsletter-form input[type="submit"]{
+    background-color: var(--primary);
+    color: var(--white);
+    font-weight: 600;
+    width: 150px;
+    border-radius:  0 8px 8px 0;
+    cursor: pointer;
+}
+
+
+/* footer  */
+footer{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer .section-heading{
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 45px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+footer ul{
+    display: flex;
+   gap: 25px;
+    list-style: none;
+}
+footer ul img{
+    transition: .4s;
+    width: 30px;
+}
+footer ul img:hover {
+    filter: grayscale(1);
+}
