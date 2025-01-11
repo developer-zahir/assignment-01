@@ -154,14 +154,14 @@
 #your-opinion-section thead {
   background-color: var(--secondary);
 }
-#your-opinion-section thead th{
- padding:24px 20px;
+#your-opinion-section thead th {
+  padding: 24px 20px;
 }
-#your-opinion-section thead th:first-child{
- text-align: left;
+#your-opinion-section thead th:first-child {
+  text-align: left;
 }
-#your-opinion-section thead th:last-child{
- text-align: right;
+#your-opinion-section thead th:last-child {
+  text-align: right;
 }
 #your-opinion-section thead .card-heading {
   opacity: 1;
@@ -208,17 +208,17 @@
 }
 #recent-news article .news-thumbnail {
   width: 35%;
-  height:325px;
+  height: 325px;
 }
 
-#recent-news article .news-thumbnail img{
+#recent-news article .news-thumbnail img {
   height: 100%;
   border-radius: 16px;
   object-fit: cover;
-  transition:.4s
+  transition: 0.4s;
 }
-#recent-news article .news-thumbnail img:hover{
-  opacity: .9;
+#recent-news article .news-thumbnail img:hover {
+  opacity: 0.9;
 }
 #recent-news .news-content {
   display: flex;
@@ -233,13 +233,13 @@
   flex-direction: column;
   gap: 10px;
 }
-#recent-news .news-content .top a{
-text-decoration: none;
-color: inherit;
-transition: .4s;
+#recent-news .news-content .top a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.4s;
 }
-#recent-news .news-content .top a:hover{
-opacity: .9;
+#recent-news .news-content .top a:hover {
+  opacity: 0.9;
 }
 #recent-news article .btn-primary {
   padding: 13px 25px;
