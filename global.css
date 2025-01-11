@@ -1,112 +1,118 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
 /*⭐⭐ Global style ⭐⭐*/
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 :root {
-    --bg: #f5f5f5;
-    --black: rgba(14, 14, 14, 1);
-    --border-color: rgba(14, 14, 14, 0.15);
-    --paragraph-color: rgba(14, 14, 14, 0.7);
-    --primary: rgba(0, 106, 80, 1);
-    --secondary: rgba(198, 228, 214, 1);
-    --white: white;
-  }
+  --bg: #f5f5f5;
+  --black: rgba(14, 14, 14, 1);
+  --border-color: rgba(14, 14, 14, 0.15);
+  --paragraph-color: rgba(14, 14, 14, 0.7);
+  --primary: rgba(0, 106, 80, 1);
+  --secondary: rgba(198, 228, 214, 1);
+  --white: white;
+}
 body {
-    background-color: var(--bg);
-    font-family: "Fira Sans", serif;
-  }
+  background-color: var(--bg);
+  font-family: "Fira Sans", serif;
+}
 img {
-    max-width: 100%;
-  }
+  max-width: 100%;
+}
 .container {
-    margin: 0 auto;
-    max-width: 1280px;
-  }
+  margin: 0 auto;
+  max-width: 1280px;
+}
 .section-padding {
-    padding: 80px 0;
-  }
+  padding: 80px 0;
+}
 .section-title-wrapper {
-    margin-bottom: 32px;
-  }
+  margin-bottom: 32px;
+}
 .section-title-wrapper > p {
-    margin-top: 20px;
-  }
+  margin-top: 20px;
+}
+
+
 /*⭐ Typography ⭐*/
 .banner-heading {
-    color: var(--black);
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 67.2px;
-  }
+  color: var(--black);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.2px;
+}
 .banner-subheading {
-    font-size: 24px;
-    font-weight: 500;
-    opacity: 0.4;
-  }
+  font-size: 24px;
+  font-weight: 500;
+  opacity: 0.4;
+}
 .section-heading {
-    color: var(--black);
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-  }
+  color: var(--black);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
 .card-heading {
-    color: var(--black);
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    opacity: 0.8;
-  }
+  color: var(--black);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  opacity: 0.8;
+}
 .article-heading {
-    color: var(--black);
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 38.4px;
-    opacity: 0.8;
-  }
+  color: var(--black);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  opacity: 0.8;
+}
 .small-heading {
-    color: var(--black);
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 19.2px;
-  }
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+}
 .paragraph-regular {
-    color: var(--paragraph-color);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-  }
+  color: var(--paragraph-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+
 /* ⭐ Button style ⭐*/
 .btn-primary {
-    align-items: center;
-    background-color: var(--primary);
-    border-radius: 8px;
-    color: var(--white);
-    display: inline-flex;
-    font-size: 18px;
-    font-weight: 600;
-    justify-self: center;
-    padding: 17px 35px;
-    text-decoration: none;
-    transition: 0.4s;
-  }
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 8px;
+  color: var(--white);
+  display: inline-flex;
+  font-size: 18px;
+  font-weight: 600;
+  justify-self: center;
+  padding: 17px 35px;
+  text-decoration: none;
+  transition: 0.4s;
+}
 .btn-primary:hover {
-    opacity: 0.9;
-  }
+  opacity: 0.9;
+}
 .btn-sm {
-    background-color: var(--primary);
-    border-radius: 8px;
-    color: var(--white);
-    display: inline-block;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 21.6px;
-    padding: 13px 26px;
-    text-decoration: none;
-    transition: 0.4s;
-  }
+  background-color: var(--primary);
+  border-radius: 8px;
+  color: var(--white);
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  padding:12px 20px 10px 20px;
+  text-decoration: none;
+  transition: 0.4s;
+}
 .btn-sm:hover {
-    opacity: 0.9;
-  }
+  opacity: 0.9;
+}
