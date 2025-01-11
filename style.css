@@ -60,7 +60,7 @@
 /*⭐⭐ pillars-of-bangladesh-section ⭐⭐*/
 #pillars-of-bangladesh-section .pillars-items-container {
   display: flex;
-  gap: 24px;
+  gap: 20px;
 }
 #pillars-of-bangladesh-section .pillar-item {
   align-items: flex-start;
